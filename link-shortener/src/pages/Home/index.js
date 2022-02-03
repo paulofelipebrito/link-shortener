@@ -6,13 +6,14 @@ import { useState } from 'react';
 import LinkItem from '../../components/LinkItem';
 
 import api from '../../services/api'
+import { saveLink } from '../../services/storeLinks'
 
 export default function Home(){
   const [link, setLink] = useState('');
   const [data, setData] = useState('');
   const [showModal, setShowModal] = useState(false);
 
-  async function handleShortLink(prevLink, nextLink){
+  async function handleShortLink(){
     try{
       const response = await api.post('/shorten', {
         long_url: link
@@ -20,6 +21,7 @@ export default function Home(){
       setData(response.data);
       setShowModal(true);
 
+      saveLink('@shortenLink', response.data)
       setLink('');
     }catch{
       alert("Something went wrong");
