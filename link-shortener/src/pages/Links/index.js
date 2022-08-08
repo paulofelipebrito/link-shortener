@@ -58,11 +58,11 @@ export default function Links(){
 
       { myLinks.map( Link => (
         <div key={Link.id} className="links-item">
-          <button className="link" onClick={() => handleOpenLink(Link.id)}>
+          <button className="link" onClick={() => handleOpenLink(Link)}>
             <FiLink size={18} color="#FFF"/>
             {Link.long_url}
           </button>
-          <button className="link-delete" onClick={()=> handleDelete(Link)}>
+          <button className="link-delete" onClick={()=> handleDelete(Link.id)}>
             <FiTrash size={24} color="#FF5454"/>
           </button>
         </div>
@@ -70,7 +70,7 @@ export default function Links(){
 
       { showModal && (
         <LinkItem 
-          closeModal={()=> setShowModal(true)}
+          closeModal={()=> setShowModal(false)}
           content={data}
         />
       )}      

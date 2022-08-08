@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 export default function Menu(){
   return(
     <div className="menu">
-      <a className="social" href="https://youtube.com/pfle_fps">
+      <a className="social" href="https://youtube.com/pfel_fps">
         <BsYoutube color="#FFF" size={24}/>
       </a>
       <a className="social" href="https://instagram.com/felipebrito_">
