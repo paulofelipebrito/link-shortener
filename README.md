@@ -11,8 +11,6 @@
 <!-- ABOUT THE PROJECT -->
 Welcome to the _GitHub repository_ of my **Link Shortener** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
 
-This site provides a simple short URL generator for you. It is not optimized for giant sites or commercial use, but would most likely be best suited for personal use or as an addition to a company site who might be generating short urls.
-
 <div align="center">
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
@@ -22,7 +20,7 @@ This site provides a simple short URL generator for you. It is not optimized for
 </p>
 </div>
 
-This project is simple project of how calculate bmi and was developed to learn useState and controlled components and serve as an extension of my LinkedIn. Users will find the following feature: **Paste an Url and copy a shortener Url, Save the links that was shortened**.
+This site provides a simple short URL generator for you. It is not optimized for giant sites or commercial use, but would most likely be best suited for personal use or as an addition to a company site who might be generating short urls. Users will find the following feature: **Paste an Url and copy a shortener Url, Save the links that was shortened**. 
 
 <br />
 
