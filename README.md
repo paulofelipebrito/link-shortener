@@ -33,11 +33,11 @@ This project is simple project of how calculate bmi and was developed to learn u
 List of major frameworks/libraries used to bootstrap this project:
 
 * [React.js](https://reactjs.org/)
- - web client & client data management
+    - web client & client data management
 * [Axios](https://axios-http.com/)
- - promise-based HTTP client for node.js and the browser
+    - promise-based HTTP client for node.js and the browser
 * [Bitly](https://api-ssl.bitly.com)
- - access to external API to shortener links
+    - access to external API to shortener links
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
