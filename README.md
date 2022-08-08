@@ -16,8 +16,8 @@ This site provides a simple short URL generator for you. It is not optimized for
 <div align="center">
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="linkshortener" title="#linkshortener" src="./src/assets/demo.gif" > 
-  <img alt="notfound" title="#notfound" src="./src/assets/notfound.gif" > 
+  <img alt="linkshortener" title="#linkshortener" src="./assets/demo.gif" > 
+  <img alt="notfound" title="#notfound" src="./assets/notFound.gif" > 
 
 </p>
 </div>
@@ -33,8 +33,12 @@ This project is simple project of how calculate bmi and was developed to learn u
 List of major frameworks/libraries used to bootstrap this project:
 
 * [React.js](https://reactjs.org/)
+ - web client & client data management
 * [Axios](https://axios-http.com/)
-* 
+ - promise-based HTTP client for node.js and the browser
+* [Bitly](https://api-ssl.bitly.com)
+ - access to external API to shortener links
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -70,6 +74,11 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
+
+---
 
 <!-- CONTACT -->
 ## Contact
